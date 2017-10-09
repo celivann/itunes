@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css?family=Oswald');
+@import url('https://fonts.googleapis.com/css?family=Amatic+SC');
+
+/* ==============================================
+   COLORS
+   ============================================== */
+
+
+/* ==============================================
+   GLOBAL STYLES
+   ============================================== */
+h1{
+    font-family: Oswald;
+    text-transform: uppercase;
+    font-size: 25px;
+    color: #888;
+}
+
+h2{
+    font-family: 'Amatic SC', cursive;
+    font-size: 16px;
+    color: #888;
+}
+
+.figuur{
+    height:160px;
+    width:160px;
+    color: black;
+    text-align: center;
+}
+
+/* MEDIA QUERIES
+*********************************************/
+
+
+/* Extra small devices (portrait phones, less than 576px)
+/ No media query since this is the default in Bootstrap*/
+
+
+/* Small devices (landscape phones, 576px and up)*/
+
+@media (min-width: 576px) {}
+
+
+/* Medium devices (tablets, 768px and up)*/
+
+@media (min-width: 768px) {}
+
+
+/* Large devices (desktops, 992px and up)*/
+
+@media (min-width: 992px) {}
+
+
+/* Extra large devices (large desktops, 1200px and up)*/
+
+@media (min-width: 1200px) {}
