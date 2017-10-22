@@ -1,17 +1,23 @@
 <!doctype html>
 <html>
+
 <head>
-<meta charset="UTF-8">
+    <meta charset="UTF-8">
 
-<title>myTunes</title>
+    <title>myTunes</title>
 
-<!-- bootstrap 4 css -->
-<link href="" rel="stylesheet" type="text/css">
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
-<!-- custom css -->
-<link href="css/main.css" rel="stylesheet" type="text/css">
+    <!-- bootstrap 4 css -->
+    <link href="" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M"
+        crossorigin="anonymous">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1"
+        crossorigin="anonymous"></script>
+    <!-- custom css -->
+    <link href="css/main.css" rel="stylesheet" type="text/css">
+    <!--icons-->
+	<script src="https://use.fontawesome.com/8eb272e708.js"></script>
 </head>
+
 <body>
 
 <!-- header -->
@@ -19,16 +25,19 @@
     <div class="row">
         <div class="col-12">
             <img class="logo" src="styles/img/logo.png" width="37px">
-            <h1 class="titel">Op zoek naar muziek?</h1> <!-- paginatitel-->
+            <h1 class="titel">Op zoek naar muziek?</h1>
+            <!-- paginatitel-->
         </div>
-    </div><!--container-->
-</div><!--/container-->
+    </div>
+    <!--container-->
+</div>
+<!--/container-->
 <!--/header-->
 
 
 <!--Ed Sheeran-->
 <section class="wrappered">
-	<div class="wrapper_text">
+    <div class="wrapper_text">
         <h1 class="zanger">÷ (Divide) - Ed Sheeran</h1>
         <h2 class="quote">“Your love was handmade for somebody like me.”</h2>
 </section>
@@ -38,18 +47,20 @@
     <div class="row">
         <div class="col-sm-12 col-md-4">
             <article>
-                <div class="card">
-                    <div class="card-header" role="tab" id="headingOne">
-                        <h5 class="mb-0">
-                            <a data-toggle="collapse" href="#collapseOne" aria-expanded="true" aria-controls="collapsOne">
-                                <img class="mx-auto d-block" src="styles/img/info.png" width="160px">
-                            </a>
-                        </h5>
-                    </div>
-                    <div id="collapseOne" class="collapse show container-fluid" role="tabpanel" aria-labelledby"headingOne">
-                        <div class="card-body">   
-                            <table class="table">
-                                <h1 class="card-titel">Info</h1>
+                <div class="accordion" role="tablist">
+                    <div class="card">
+                        <div class="card-header" role="tab" id="headingOne">
+                            <h1 class="mb-0">
+                                <a data-toggle="collapse" href="#collapseOne" aria-expended="false" aria-controls="collapseOne">
+                                    <img class="mx-auto d-block" src="styles/img/info.png" alt="info" width="160px">
+                                </a>
+                            </h1>
+                        </div>
+
+                        <div id="collapseOne" class="collapse" role="tabpanel" aria-labelledby "headingOne" data-parent="#accordion">
+                            <div class="card-body">
+                                <table class="table">
+                                    <h1 class="card-titel">Info</h1>
                                     <tr>
                                         <td>Artiest</td>
                                         <td>Ed Sheeran</td>
@@ -59,15 +70,18 @@
                                         <td>3 maart 2017</td>
                                     </tr>
                                     <tr>
-                                        <td>Label</td> 
+                                        <td>Label</td>
                                         <td>Atlantic Records UK</td>
                                     </tr>
                                     <tr>
                                         <td>Genre</td>
                                         <td>Pop</td>
                                     </tr>
-                            </table>
-                            <p>Musicaal gezien is ÷ DIVIDE een samenstelling van prachtige emotionele ballads, passievolle raps en hip hop beats, en het innoverende, tijdloze, en typerende gitaarwerk van Ed Sheeran. </p>
+                                </table>
+                                <p>Musicaal gezien is ÷ DIVIDE een samenstelling van prachtige emotionele ballads, passievolle
+                                    raps en hip hop beats, en het innoverende, tijdloze, en typerende gitaarwerk van
+                                    Ed Sheeran. </p>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -79,15 +93,15 @@
         <div class="col-sm-12 col-md-4">
             <article>
                 <div class="card">
-                    <div class="card-header" role="tab" id="edsheeran">
+                    <div class="card-header" role="tab" id="headingTwo">
                         <h1 class="mb-0">
-                            <a data-toggle="collapse" href="#AlbumOne" aria-expanded="true" aria-controls="collaps">
-                                <img class=" mx-auto d-block" src="styles/img/album.png" width="160px">                            </a>
+                            <a data-toggle="collapse" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                <img class=" mx-auto d-block" src="styles/img/album.png" width="160px"> </a>
                         </h1>
                     </div>
-                    <div id="edsheeran" class="collapse show container-fluid" role="tabpanel" aria-labelledby"heading">
-                        <div class="card-body">  
-                            <h1 class="card-titel">Album</h1>                          
+                    <div id="collapseTwo" class="collapse" role="tabpanel" aria-labelledby "headingTwo" data-parent "#accardion">
+                        <div class="card-body">
+                            <h1 class="card-titel">Album</h1>
                             <ol>
                                 <li>Eraser</li>
                                 <li>Castle on the Hill</li>
@@ -117,161 +131,173 @@
         <div class="col-sm-12 col-md-4">
             <article>
                 <div class="card">
-                    <div class="card-header" role="tab" id="edsheeran">
+                    <div class="card-header" role="tab" id="headingThree">
                         <h1 class="mb-0">
-                            <a data-toggle="collapse" href="#AlbumOne" aria-expanded="true" aria-controls="collaps">
-                                <img class="mx-auto d-block" src="styles/img/ontdek.png" width="160px">                        </a>
+                            <a data-toggle="collapse" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                <img class="mx-auto d-block" src="styles/img/ontdek.png" width="160px">
+                            </a>
                         </h1>
                     </div>
-                    <div id="edsheeran" class="collapse show container-fluid" role="tabpanel" aria-labelledby"heading">
-                        <div class="card-body">                            
-                            <h1 class="card-titel">Ontdek</h1>     
+                    <div id="collapseThree" class="collapse " role="tabpanel" aria-labelledby "headingThree" data-parent "#accardion">
+                        <div class="card-body ontdek">
+                            <h1 class="card-titel">Ontdek</h1>
                             <p class="prijs">€ 19,99</p>
-                            <a href="https://www.bol.com/nl/p/divide/9200000073620655/?suggestionType=suggestedsearch">bol.com</a>
+                            <a href="https://www.bol.com/nl/p/divide/9200000073620655/?suggestionType=suggestedsearch">bol.com<br>
+                            <i class="fa fa-arrow-circle-o-right fa-2x" aria-hidden="true"></i></a>                            
                         </div>
                     </div>
                 </div>
             </article>
         </div>
-        <!--einde ontdek-->   
-    </div><!--/row-->
-</div> <!--/container-->
+        <!--einde ontdek-->
+    </div>
+    <!--/row-->
+</div>
+<!--/container-->
 
 
 <!--bazart-->
 <section class="wrapperbazart">
-        <div class="wrapper_text">
-                <h1 class="zanger">Echo - Bazart</h1>
-                <h2 class="quote">“Er schuilt een held heel diep in mij<br>
-                hij woont daar al een hele tijd.”</h2>
+    <div class="wrapper_text">
+        <h1 class="zanger">Echo - Bazart</h1>
+        <h2 class="quote">“Er schuilt een held heel diep in mij
+            <br> hij woont daar al een hele tijd.”</h2>
 </section>
 
+<!--info-->
 <div class="container">
     <div class="row">
-        <!--info-->
         <div class="col-sm-12 col-md-4">
-                <article>
+            <article>
+                <div class="accordion" role="tablist">
                     <div class="card">
-                        <div class="card-header" role="tab" id="edsheeran">
+                        <div class="card-header" role="tab" id="headingFour">
                             <h1 class="mb-0">
-                                <a data-toggle="collapse" href="#AlbumOne" aria-expanded="true" aria-controls="collaps">
+                                <a data-toggle="collapse" href="#collapseFour" aria-expended="false" aria-controls="collapseFour">
                                     <img class="mx-auto d-block" src="styles/img/info.png" width="160px">
                                 </a>
                             </h1>
                         </div>
-                        <div id="edsheeran" class="collapse show container-fluid" role="tabpanel" aria-labelledby"heading">
-                            <div class="card-body">                            
+
+                        <div id="collapseFour" class="collapse" role="tabpanel" aria-labelledby "headingFour" data-parent="#accordion">
+                            <div class="card-body">
                                 <table class="table">
-                                    <h1 class="card-titel">Info</h1>  
-                                        <tr>
-                                            <td>Artiest</td>
-                                            <td>Bazart</td>
-                                        </tr>
-                                        <tr>
-                                            <td>Releasedatum</td>
-                                            <td>30 september 2016</td>
-                                        </tr>
-                                        <tr>
-                                            <td>Label</td> 
-                                            <td>Pias</td>
-                                        </tr>
-                                        <tr>
-                                            <td>Genre</td>
-                                            <td>Alternatief/Indie</td>
-                                        </tr>
+                                    <h1 class="card-titel">Info</h1>
+                                    <tr>
+                                        <td>Artiest</td>
+                                        <td>Bazart</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Releasedatum</td>
+                                        <td>30 september 2016</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Label</td>
+                                        <td>Pias</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Genre</td>
+                                        <td>Alternatief/Indie</td>
+                                    </tr>
                                 </table>
-                                <p>Naast de bekende hitsingles Chaos en Goud vertegenwoordigen ook alle andere nummers op het album de unieke sound van deze Vlaamse sensatie. Echo weet je verwachtingen van deze veelbelovende band volledig in te vullen.</p>
+                                <p>Naast de bekende hitsingles Chaos en Goud vertegenwoordigen ook alle andere nummers op het
+                                    album de unieke sound van deze Vlaamse sensatie. Echo weet je verwachtingen van deze
+                                    veelbelovende band volledig in te vullen. </p>
                             </div>
                         </div>
                     </div>
-                </article>
-            </div>
+                </div>
+            </article>
+        </div>
         <!--einde info-->
 
         <!--album-->
-            <div class="col-sm-12 col-md-4">
-                <article>
-                    <div class="card">
-                        <div class="card-header" role="tab" id="edsheeran">
-                            <h1 class="mb-0">
-                                <a data-toggle="collapse" href="#AlbumOne" aria-expanded="true" aria-controls="collaps">
-                                    <img class="mx-auto d-block" src="styles/img/album.png" width="160px">
-                                </a>
-                            </h1>
-                        </div>
-                        <div id="edsheeran" class="collapse show container-fluid" role="tabpanel" aria-labelledby"heading">
-                            <div class="card-body">                            
-                                <h1 class="card-titel">Album</h1>                          
-                                <ol>
-                                    <li>Echo</li>
-                                    <li>Chaos</li>
-                                    <li>Tunnels</li>
-                                    <li>Lux</li>
-                                    <li>Nacht</li>
-                                    <li>Goud</li>
-                                    <li>Kloon</li>
-                                    <li>Open</li>
-                                    <li>Voodoo</li>
-                                    <li>Zonder</li>
-                                <ol>
-                            </div>
+        <div class="col-sm-12 col-md-4">
+            <article>
+                <div class="card">
+                    <div class="card-header" role="tab" id="headingFive">
+                        <h1 class="mb-0">
+                            <a data-toggle="collapse" href="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                                <img class=" mx-auto d-block" src="styles/img/album.png" width="160px"> </a>
+                        </h1>
+                    </div>
+                    <div id="collapseFive" class="collapse" role="tabpanel" aria-labelledby "headingFive" data-parent "#accardion">
+                        <div class="card-body">
+                            <h1 class="card-titel">Album</h1>
+                            <ol>
+                                <li>Echo</li>
+                                <li>Chaos</li>
+                                <li>Tunnels</li>
+                                <li>Lux</li>
+                                <li>Nacht</li>
+                                <li>Goud</li>
+                                <li>Kloon</li>
+                                <li>Open</li>
+                                <li>Voodoo</li>
+                                <li>Zonder</li>
+                            </ol>
                         </div>
                     </div>
-                </article>
-            </div>
+                </div>
+            </article>
+        </div>
         <!--einde album-->
 
         <!--ontdek-->
         <div class="col-sm-12 col-md-4">
             <article>
                 <div class="card">
-                    <div class="card-header" role="tab" id="edsheeran">
+                    <div class="card-header" role="tab" id="headingSix">
                         <h1 class="mb-0">
-                            <a data-toggle="collapse" href="#AlbumOne" aria-expanded="true" aria-controls="collaps">
+                            <a data-toggle="collapse" href="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
                                 <img class="mx-auto d-block" src="styles/img/ontdek.png" width="160px">
                             </a>
                         </h1>
                     </div>
-                    <div id="edsheeran" class="collapse show container-fluid" role="tabpanel" aria-labelledby"heading">
-                        <div class="card-body">      
-                            <h1 class="card-titel">Ontdek</h1>     
-                            <p class="prijs">€ 17,99</p>
-                            <a href="https://www.bol.com/nl/p/echo/9200000063408044/?s2a=#product_title">bol.com</a>                      
-                        </div>
+                    <div id="collapseSix" class="collapse " role="tabpanel" aria-labelledby "headingSix" data-parent "#accardion">
+                        <div class="card-body ontdek">
+                            <h1 class="card-titel">Ontdek</h1>
+                            <p class="prijs">€ 21,99</p>
+                            <a href="https://www.bol.com/nl/p/echo/9200000063408044/?suggestionType=browse">bol.com<br>
+                            <i class="fa fa-arrow-circle-o-right fa-2x" aria-hidden="true"></i></a>                        </div>
                     </div>
                 </div>
             </article>
         </div>
-        <!--einde ontdek-->   
-    </div><!--/row-->
-</div><!--/container-->
+        <!--einde ontdek-->
+    </div>
+    <!--/row-->
+</div>
+<!--/container-->
 <!--einde bazart-->
 
 
 <!--bruno-->
 <section class="wrapperbruno">
-        <div class="wrapper_text">
-                <h1 class="zanger">24K Magic - Bruno Mars</h1>
-                <h2 class="quote">"If you ever need to smile again girl, take my card."</h2>
+    <div class="wrapper_text">
+        <h1 class="zanger">24K Magic - Bruno Mars</h1>
+        <h2 class="quote">"If you ever need to smile again girl, take my card."</h2>
 </section>
 
+<!--info-->
 <div class="container">
     <div class="row">
-        <!--info-->
-            <div class="col-sm-12 col-md-4">
-                <article>
+        <div class="col-sm-12 col-md-4">
+            <article>
+                <div class="accordion" role="tablist">
                     <div class="card">
-                        <div class="card-header" role="tab" id="edsheeran">
+                        <div class="card-header" role="tab" id="headingSeven">
                             <h1 class="mb-0">
-                                <a data-toggle="collapse" href="#AlbumOne" aria-expanded="true" aria-controls="collaps">
+                                <a data-toggle="collapse" href="#collapseSeven" aria-expended="false" aria-controls="collapseSeven">
                                     <img class="mx-auto d-block" src="styles/img/info.png" width="160px">
                                 </a>
                             </h1>
                         </div>
-                    <div id="edsheeran" class="collapse show container-fluid" role="tabpanel" aria-labelledby"heading">
-                        <div class="card-body">                            
-                            <table class="table">
-                                <h1 class="card-titel">Info</h1>  
+
+                        <div id="collapseSeven" class="collapse" role="tabpanel" aria-labelledby "headingSeven" data-parent="#accordion">
+                            <div class="card-body">
+                                <table class="table">
+                                    <h1 class="card-titel">Info</h1>
                                     <tr>
                                         <td>Artiest</td>
                                         <td>Bruno Mars</td>
@@ -281,79 +307,92 @@
                                         <td>18 november 2016</td>
                                     </tr>
                                     <tr>
-                                        <td>Label</td> 
+                                        <td>Label</td>
                                         <td>Atlantic</td>
                                     </tr>
                                     <tr>
                                         <td>Genre</td>
-                                        <td>Funk/Urban pop</td>
+                                        <td>Funk/Urban Pop</td>
                                     </tr>
-                            </table>
-                            <p>Met dit nieuwe album blaast Bruno Mars nieuw leven in de geweldige sounds en stijlen van de jaren ’70 en ’80. De videoclip voor zijn gelijknamige eerste single legt dan ook meteen de algehele feelgood toon van de rest van het album. </p>
-                        </div>
-                    </div>
-                    </div>
-                </article>
-            </div>
-        <!--einde info-->
-    
-        <!--album-->
-            <div class="col-sm-12 col-md-4">
-                <article>
-                    <div class="card">
-                        <div class="card-header" role="tab" id="edsheeran">
-                            <h1 class="mb-0">
-                                <a data-toggle="collapse" href="#AlbumOne" aria-expanded="true" aria-controls="collaps">
-                                    <img class="mx-auto d-block" src="styles/img/album.png" width="160px">
-                                </a>
-                            </h1>
-                        </div>
-                        <div id="edsheeran" class="collapse show container-fluid" role="tabpanel" aria-labelledby"heading">
-                            <div class="card-body">                            
-                                    <h1 class="card-titel">Album</h1>                          
-                                    <ol>
-                                        <li>24K Magic</li>
-                                        <li>Chunky</li>
-                                        <li>Perm</li>
-                                        <li>That's What I Like</li>
-                                        <li>Versace On The Floor</li>
-                                        <li>Straight Up & Down </li>
-                                        <li>Calling All My Lovelies</li>
-                                        <li>Finesse</li>
-                                    <ol>
+                                </table>
+                                <p>Met dit nieuwe album blaast Bruno Mars nieuw leven in de geweldige sounds en stijlen van
+                                    de jaren ’70 en ’80. De videoclip voor zijn gelijknamige eerste single legt dan ook meteen
+                                    de algehele feelgood toon van de rest van het album. </p>
                             </div>
-                        </div>
-                    </div>
-                </article>
-            </div>
-        <!--einde album-->
-    
-        <!--ontdek-->
-        <div class="col-sm-12 col-md-4">
-            <article>
-                <div class="card">
-                    <div class="card-header" role="tab" id="edsheeran">
-                        <h1 class="mb-0">
-                            <a data-toggle="collapse" href="#AlbumOne" aria-expanded="true" aria-controls="collaps">
-                                <img class="mx-auto d-block" src="styles/img/ontdek.png" width="160px">
-                            </a>
-                        </h1>
-                    </div>
-                    <div id="edsheeran" class="collapse show container-fluid" role="tabpanel" aria-labelledby"heading">
-                        <div class="card-body">      
-                            <h1 class="card-titel">Ontdek</h1>     
-                            <p class="prijs">€ 19,99</p>
-                            <a href="https://www.bol.com/nl/p/24k-magic/9200000066086829/?suggestionType=suggestedsearch">bol.com</a>                      
                         </div>
                     </div>
                 </div>
             </article>
         </div>
-        <!--einde ontdek-->   
-    </div><!--/row-->
-</div><!-- /container -->
- <!--einde bruno-->
+        <!--einde info-->
+
+        <!--album-->
+        <div class="col-sm-12 col-md-4">
+            <article>
+                <div class="card">
+                    <div class="card-header" role="tab" id="headingEight">
+                        <h1 class="mb-0">
+                            <a data-toggle="collapse" href="#collapseEight" aria-expanded="false" aria-controls="collapseEight">
+                                <img class=" mx-auto d-block" src="styles/img/album.png" width="160px"> </a>
+                        </h1>
+                    </div>
+                    <div id="collapseEight" class="collapse" role="tabpanel" aria-labelledby "headingEight" data-parent "#accardion">
+                        <div class="card-body">
+                            <h1 class="card-titel">Album</h1>
+                            <ol>
+                                <li>24K Magic</li>
+                                <li>Chunky</li>
+                                <li>Perm</li>
+                                <li>That's What I Like</li>
+                                <li>Versace On The Floor</li>
+                                <li>Straight Up & Down</li>
+                                <li>Calling All My Lovelies</li>
+                                <li>Finesse</li>
+                            </ol>
+                        </div>
+                    </div>
+                </div>
+            </article>
+        </div>
+        <!--einde album-->
+
+        <!--ontdek-->
+        <div class="col-sm-12 col-md-4">
+            <article>
+                <div class="card">
+                    <div class="card-header" role="tab" id="headingNine">
+                        <h1 class="mb-0">
+                            <a data-toggle="collapse" href="#collapseNine" aria-expanded="false" aria-controls="collapseNine">
+                                <img class="mx-auto d-block" src="styles/img/ontdek.png" width="160px">
+                            </a>
+                        </h1>
+                    </div>
+                    <div id="collapseNine" class="collapse " role="tabpanel" aria-labelledby "headingNine" data-parent "#accardion">
+                        <div class="card-body ontdek">
+                            <h1 class="card-titel">Ontdek</h1>
+                            <p class="prijs">€ 19,99</p>
+                            <a href="https://www.bol.com/nl/p/24k-magic/9200000066086829/?suggestionType=suggestedsearch">bol.com<br>
+                            <i class="fa fa-arrow-circle-o-right fa-2x" aria-hidden="true"></i></a>                        </div>
+                    </div>
+                </div>
+            </article>
+        </div>
+        <!--einde ontdek-->
+    </div>
+    <!--/row-->
+</div>
+<!--/container-->
+<!--einde bruno-->
 
 
+<!-- Optional JavaScript -->
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+    crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4"
+    crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1"
+    crossorigin="anonymous"></script>
 </body>
+
 </html>
