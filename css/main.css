@@ -160,8 +160,13 @@ ol{
 
 /* Medium devices (tablets, 768px and up)*/
 
-@media (min-width: 768px) {
-.zanger{
+@media (min-width: 768px) {}
+
+
+
+/* Large devices (desktops, 992px and up)*/
+
+@media (min-width: 992px) {.zanger{
     margin-left: 100px;
     padding-top: 100px;
     font-size: 40px;
@@ -196,12 +201,7 @@ ol{
     margin-top: 0px;
     height: 450px;
 }
-
-
-
-/* Large devices (desktops, 992px and up)*/
-
-@media (min-width: 992px) {}
+}
 
 
 /* Extra large devices (large desktops, 1200px and up)*/
